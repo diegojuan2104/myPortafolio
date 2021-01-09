@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 import facebookLogo from "../images/SocialMedia/facebook.png"
 import instagramLogo from "../images/SocialMedia/instagram.png"
 import twitterLogo from "../images/SocialMedia/twitter.png"
+import githubLogo from "../images/SocialMedia/github.png"
 import homeLogo from "../images/others/home.png"
+
 
 const Icon = styled.button`
     
@@ -36,18 +38,18 @@ const Option = styled.div`
 
 const Header = () => {
     return (
-        <div className="container bg-white rounded">
+        <div className="container bg-white rounded p-2">
             <div className="row ">
-                <div className="col  col-md-6 col-xs-12 mt-5">
-                    <div className="row justify-content-md-center">
+                <div className="col  col-md-6 col-xs-12 mt-3">
+                    <div className="row">
                         <Link to="/home"><Icon><img src={homeLogo} alt=""/></Icon></Link>
                         <Link className="option_menu" to="/resume">RESUME</Link>
                         <Link className="option_menu" to="/portafolio">PORTAFOLIO</Link>
                         <Link className="option_menu" to="/contact">CONTACT</Link>
                     </div>
                 </div>
-                <div className="col-md-6 col-xs-12 mt-5">
-                    <div className="row justify-content-md-center">
+                <div className="col-md-6 col-xs-12 mt-3">
+                    <div className="row d-flex flex-row-reverse">
 
                         <Icon>
                             <img src={facebookLogo} alt="facebookImg" />
@@ -59,6 +61,10 @@ const Header = () => {
 
                         <Icon>
                             <img src={twitterLogo} alt="twitterImg" />
+                        </Icon>
+
+                        <Icon>
+                            <img src={githubLogo} alt="twitterImg" />
                         </Icon>
 
                         <button className="relevant-button">
