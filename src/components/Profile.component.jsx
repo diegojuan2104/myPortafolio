@@ -9,10 +9,14 @@ const Profile = () => {
                 <div className="col justify-content-md-center  ">
                 <div className="row justify-content-center  ">
                     <img className="profile-photo" src={profilePhoto} alt=""/>
+                
                 </div>
-                <h1>Juan Mejia</h1>
-                <i>Junior Developer</i>
+
+                
+                <h1 className="row justify-content-center  ">Juan Mejia</h1>
+                <i className="row justify-content-center  ">Junior Developer</i>
                
+                <div className="row justify-content-center">
                 <div className="mt-3">
                     <li><strong>Email: </strong> </li>
                     diegojuan2104@gmail.com
@@ -20,7 +24,12 @@ const Profile = () => {
                     Systems engeneering
                     <li><strong>Age: </strong>19</li>
                 </div>
-                <button className="relevant-button mt-3">Download CV</button>
+
+                </div>
+                
+                <div className="row justify-content-center" >
+                    <button className="  relevant-button mt-3">Download CV</button>
+                </div>
 
                 </div>
                 

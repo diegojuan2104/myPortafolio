@@ -37,7 +37,7 @@ body {
 .profile-photo{
 
   height: 220px;
-  width: 180px;
+  width: 150px;
   border-radius: 5px;
 }
 
@@ -49,4 +49,8 @@ body {
 
 .checked {
   color: orange;
+}
+
+.card {
+  height: 92%;
 }

@@ -1,8 +1,13 @@
 import "./App.css";
 
+import { Route, Switch, Redirect } from "react-router-dom";
+
 //Components import
 import Header from "./components/Header.component";
-import ResumePage from "./pages/Resume.page"
+
+//Pages
+import ResumePage from "./pages/Resume.page";
+import PortafolioPage from "./pages/Portafolio.page";
 
 function App() {
   return (
@@ -11,7 +16,14 @@ function App() {
         <div className="col col-lg-12">
           <Header />
         </div>
-        <ResumePage/>
+
+        <Switch>
+          <Route exact path="/" component={ResumePage} />
+        </Switch>
+
+        <Switch>
+          <Route exact path="/portafolio" component={PortafolioPage} />
+        </Switch>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import Resume_desription from '../components/Resume_description.component'
 
 const ResumePage = () => {
     return (
-        <div className="container">
+        <div className="container ">
             <div className="row">
                 <div className="col  col-xs-12 col-sm-12 col-md-4">
                     <Profile />

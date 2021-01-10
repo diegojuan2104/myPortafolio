@@ -43,7 +43,7 @@ const Header = () => {
                 <div className="col  col-md-6 col-xs-12 mt-3">
                     <div className="row">
                         <Link to="/home"><Icon><img src={homeLogo} alt=""/></Icon></Link>
-                        <Link className="option_menu" to="/resume">RESUME</Link>
+                        <Link className="option_menu" to="/">RESUME</Link>
                         <Link className="option_menu" to="/portafolio">PORTAFOLIO</Link>
                         <Link className="option_menu" to="/contact">CONTACT</Link>
                     </div>
