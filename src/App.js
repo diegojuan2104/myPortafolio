@@ -7,6 +7,7 @@ import Footer from "./components/Footer.component";
 //Pages
 import ResumePage from "./pages/Resume.page";
 import PortafolioPage from "./pages/Portafolio.page";
+import ContactPage from "./pages/Contact.page"
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
 
             <Switch>
               <Route exact path="/portafolio" component={PortafolioPage} />
+            </Switch>
+
+            <Switch>
+              <Route exact path="/contact" component={ContactPage} />
             </Switch>
           </div>
         <div className="row mt-4 align-self-end">
