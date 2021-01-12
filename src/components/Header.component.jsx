@@ -40,8 +40,8 @@ const Header = () => {
     return (
         <div className="container bg-white rounded p-2">
             <div className="row ">
-                <div className="col  col-md-6 col-xs-12 mt-3">
-                    <div className="row">
+                <div className="col  col-xl-6 col-xs-12 mt-3">
+                    <div className="row d-flex justify-content-xs-center">
                         <Link to="/"><Icon><img src={homeLogo} alt=""/></Icon></Link>
                         <Link className="option_menu" to="/">RESUME</Link>
                         <Link className="option_menu" to="/portafolio">PORTAFOLIO</Link>
@@ -49,7 +49,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="col-md-6 col-xs-12 mt-3">
-                    <div className="row d-flex flex-row-reverse">
+                    <div className="row d-flex  justify-content-md-end justify-content-xs-center .flex-sm-wrap">
 
                         <Icon>
                             <img src={facebookLogo} alt="facebookImg" />

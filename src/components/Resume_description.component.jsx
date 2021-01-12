@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ResumeDescription = () => {
-    return (<div className="card mt-5 ">
+    return (<div className="card card-resume mt-5 ">
         <div className="card-body">
             <div className="row justify-content-md-center ">
                 <h1>Hi!</h1>

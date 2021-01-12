@@ -9,13 +9,7 @@ const projects = [
         "img": img_veterinaria,
         "tags": ["React", "Sass","JavaScript","HTML"]
     },
-    {
-        "title":"Administrador de citas veterinaria",
-        "code":"https://github.com/diegojuan2104/sistema_citas_react_sass",
-        "url":"https://controldecitasjuandev.netlify.app/",
-        "img":img_veterinaria,
-        "tags": ["React", "Sass","JavaScript","HTML"]
-    },
+    
 
 ]
 

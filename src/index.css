@@ -1,13 +1,11 @@
 body {
   font-family: 'Open Sans Condensed';
-  font-size: 25px;
-  padding: 20px ;
   background-image: url('');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,6 +49,22 @@ body {
   color: orange;
 }
 
-.card {
+.card-resume {
   height: 92%;
+}
+
+
+.main-page{
+  height: 100vh;
+}
+
+.foot{
+  width: 110vw;
+  background-color: #212529;
+  height: 10vh;
+}
+
+.foot p{
+  color: #fff;
+
 }

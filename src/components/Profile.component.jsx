@@ -4,7 +4,7 @@ import profilePhoto from "../images/others/fotoPerfil1.jpeg"
 
 const Profile = () => {
     return (
-        <div class="card mt-5 " >
+        <div class="card card-resume mt-5 " >
             <div class="card-body ">
                 <div className="col justify-content-md-center  ">
                 <div className="row justify-content-center  ">

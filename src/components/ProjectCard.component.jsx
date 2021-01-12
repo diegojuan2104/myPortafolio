@@ -31,13 +31,20 @@ const cardProject = ({ project }) => {
 
     return (
         <Card>
-            <div className="card mt-3 mr-3">
-                <div className=" card-body ">
+            <div className="card  mr-3">
+                <div className="col card-body ">
                     <h5>{project.title}</h5>
 
                     <img src={project.img} alt="" />
 
-
+                    <div className="tags">
+                        {project.tags.map((tag, i) => (
+                            <span
+                                key={i}
+                                class="badge bg-dark m-1 text-white">{tag}</span>
+                        ))
+                        }
+                    </div>
                 </div>
             </div>
         </Card>
