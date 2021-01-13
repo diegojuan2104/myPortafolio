@@ -35,9 +35,14 @@ const Option = styled.div`
     color:#000;
 `;
 
-
+const redirectToSocialMedia = (url) => {
+    window.open(url, '_blank');
+}
 const Header = () => {
+
     return (
+
+     
         <div className="container bg-white rounded p-2">
             <div className="row ">
                 <div className="col  col-xl-6 col-xs-12 mt-3">
@@ -50,23 +55,42 @@ const Header = () => {
                 </div>
                 <div className="col-md-6 col-xs-12 mt-3">
                     <div className="row d-flex  justify-content-md-end justify-content-xs-center .flex-sm-wrap">
-
+                    <Link
+                        onClick={redirectToSocialMedia.bind("https://www.facebook.com/diegojuan2104/")}
+                    >
                         <Icon>
                             <img src={facebookLogo} alt="facebookImg" />
                         </Icon>
-
+                    </Link>
+                        
+                    <Link
+                        onClick={redirectToSocialMedia.bind("https://www.instagram.com/juandiegomejia02/")}
+                    >
                         <Icon>
                             <img src={instagramLogo} alt="instagramImg" />
                         </Icon>
 
+                    </Link>    
+
+
+                    <Link
+                        onClick={redirectToSocialMedia.bind("https://twitter.com/MejiaOtalvaro")}
+                    >
                         <Icon>
                             <img src={twitterLogo} alt="twitterImg" />
                         </Icon>
 
+                    </Link>   
+                        
+                    <Link
+                        onClick={redirectToSocialMedia.bind("https://github.com/diegojuan2104")}
+                    >
                         <Icon>
                             <img src={githubLogo} alt="twitterImg" />
                         </Icon>
-
+                    </Link>   
+                        
+                       
                         <button className="relevant-button">
                             Hire me!
                         </button>

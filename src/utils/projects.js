@@ -4,7 +4,6 @@ import img_bebidas from "../images/projects/Buscador_de_recetas.png"
 import img_portafolio from "../images/projects/Portafolio.png"
 
 
-
 const projects = [
     {
         "title":"Administrador de citas veterinaria",
