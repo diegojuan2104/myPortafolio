@@ -56,7 +56,7 @@ const Header = () => {
                 <div className="col-md-6 col-xs-12 mt-3">
                     <div className="row d-flex  justify-content-md-end justify-content-xs-center .flex-sm-wrap">
                     <Link
-                        onClick={redirectToSocialMedia.bind("https://www.facebook.com/diegojuan2104/")}
+                        onClick={redirectToSocialMedia.bind(this,"https://www.facebook.com/diegojuan2104/")}
                     >
                         <Icon>
                             <img src={facebookLogo} alt="facebookImg" />
@@ -64,7 +64,7 @@ const Header = () => {
                     </Link>
                         
                     <Link
-                        onClick={redirectToSocialMedia.bind("https://www.instagram.com/juandiegomejia02/")}
+                        onClick={redirectToSocialMedia.bind(this,"https://www.instagram.com/juandiegomejia02/")}
                     >
                         <Icon>
                             <img src={instagramLogo} alt="instagramImg" />
@@ -74,7 +74,7 @@ const Header = () => {
 
 
                     <Link
-                        onClick={redirectToSocialMedia.bind("https://twitter.com/MejiaOtalvaro")}
+                        onClick={redirectToSocialMedia.bind(this,"https://twitter.com/MejiaOtalvaro")}
                     >
                         <Icon>
                             <img src={twitterLogo} alt="twitterImg" />
@@ -83,17 +83,12 @@ const Header = () => {
                     </Link>   
                         
                     <Link
-                        onClick={redirectToSocialMedia.bind("https://github.com/diegojuan2104")}
+                        onClick={redirectToSocialMedia.bind(this,"https://github.com/diegojuan2104")}
                     >
                         <Icon>
                             <img src={githubLogo} alt="twitterImg" />
                         </Icon>
                     </Link>   
-                        
-                       
-                        <button className="relevant-button">
-                            Hire me!
-                        </button>
                     </div>
                 </div>
             </div>

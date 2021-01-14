@@ -7,7 +7,7 @@ import { projects } from "../utils/projects"
 const Portafolio = () => {
 
     const selectedProject = (project) => {
-
+        
         var url = project.url;
         window.open(url, '_blank');
 
